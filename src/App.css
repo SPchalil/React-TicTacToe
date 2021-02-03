@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+/*--
+.App-link {
+  color: #61dafb;
+}
+--*/
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
+
+
+body {
+  font: 20px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  
+}
+
+/*--
+.square {
+  background: rgb(139, 227, 243);
+  border: 8px solid rgb(248, 248, 248);
+  float: left;
+  font-size: 80px;
+  font-weight: bold;
+  color:#4e1e7e;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+--*/
+
+.squareX{
+  background: rgb(139, 227, 243);
+  border: 8px solid rgb(248, 248, 248);
+  float: left;
+  font-size: 80px;
+  font-weight: bold;
+  color:#fa0707;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+
+}
+.squareO{
+  background: rgb(139, 227, 243);
+  border: 8px solid rgb(248, 248, 248);
+  float: left;
+  font-size: 80px;
+  font-weight: bold;
+  color:#f3ef08;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+
+}
+
+
+.squareX:focus {
+  outline: none;
+  background-color: white;
+}
+
+.squareO:focus {
+  outline: none;
+  background-color: white;
+}
+
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font: large;
+}
+
+.status{
+  color: rgb(6, 252, 252);
+  font-size: 25px;
+  
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@keyframes head {
+  0%   {color: rgb(89, 0, 255);}
+  25%  {color: rgb(217, 236, 243);}
+  50%  {color: rgb(241, 21, 21);}
+  100% {color: rgb(245, 222, 12);}
+}
+
+.heading{
+  color: white;
+  font-size: 30px;
+  animation-name: head;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 25;
+}
+
+.listItem{
+  color: rgb(255, 255, 255);
+  background-color: rgb(6, 190, 247);
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
