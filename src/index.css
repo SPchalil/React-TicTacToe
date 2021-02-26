@@ -54,19 +54,7 @@ code {
   background-color: #b3b3b3;
  
 }
-/*
-.enterButton:visited {
-  text-decoration: none;
-}
-enterButton:link {
-  text-decoration: none;
-}
 
-
-.enterButton:active {
-  text-decoration: none;
-}
-*/
 .backContainer{
   display: flex;
     flex-flow: row ;
