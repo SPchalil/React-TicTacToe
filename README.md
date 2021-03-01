@@ -2,6 +2,8 @@
 
 This project, a tic-tac-toe game implemented in React, is a major practice project undertaken as part of learning and practicing the React as well as to understand the working of react router Dom. Implementing a router allows the application to navigate between different pages.  
 
+![React-tictactoe](https://user-images.githubusercontent.com/74065235/109557247-67d96580-7ab2-11eb-85f1-b38829fb25b5.png)
+
 This app requires Node Package Manager (npm) to run. You can clone the repo and follow the directions below to run an offline version of this app on your local machine.
 
 # Getting Started with Create React App
